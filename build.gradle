@@ -18,6 +18,7 @@ dependencies {
     testImplementation "org.junit.jupiter:junit-jupiter-api:$junitVersion"
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junitVersion"
     implementation "io.projectreactor:reactor-core:$reactorVersion"
+    implementation 'org.projectlombok:lombok:1.18.26'
     testImplementation "io.projectreactor:reactor-test:$reactorVersion"
     testImplementation 'com.github.javafaker:javafaker:1.0.2'
 }
