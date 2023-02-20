@@ -1,7 +1,12 @@
 package br.com.dio.desafioreactor;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+
 @Getter
 @Setter
+@AllArgsConstructor
 public class User {
 
     public Long id;
@@ -10,13 +15,4 @@ public class User {
     public String password;
     public Boolean isAdmin;
 
-    public User(Long id,
-                String name,
-                String email,
-                String password,
-                Boolean isAdmin) {
-
-        
-
-    }
 }
